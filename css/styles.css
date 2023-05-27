@@ -9,7 +9,7 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     text-align: justify; 
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     text-align: center;
 }
 
 h2 {
-    margin-top: 1.3em;
+    margin-top: 1.3rem;
 }
 
 a {
@@ -46,7 +46,7 @@ samp {
 
 img {
     display: block;
-    margin: 1.3em auto;
+    margin: 1.3rem auto;
     max-width: 95%;
 }
 
@@ -92,9 +92,22 @@ img {
     text-align: center;
 }
 
+.club-name {
+    padding: 1rem 0rem 2rem 0rem;
+}
+
 p {
-    padding: 5px 30px 5px;
-    max-width: 95%;
+    padding: .5rem 2rem .5rem;
+    max-width: 92%;
+}
+
+.bing-wong {
+    max-width: 92%;
+    margin: 0 1.8rem;
+}
+
+.field-info {
+    font-size: large;
 }
 
 .address {
@@ -127,4 +140,13 @@ p {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
+}
+
+@media(max-width: 700px) {
+    
+    .field-info {
+    font-size: x-large;
+    
+}
+
 }
